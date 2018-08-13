@@ -17,7 +17,9 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <Screen1></Screen1>
+        <Screen1 />
+        <Screen2 />
+        <Screen3 />
       </div>
     );
   }

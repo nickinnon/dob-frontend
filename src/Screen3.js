@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
 
-export class Screen2 extends Component {
+export class Screen3 extends Component {
   render() {
     return (
       <div className="App">
-        <h1>test</h1>
+        <h1>Order List</h1>
+        <ul>
+          <li>Cindy</li>
+          <li>Dan</li>
+          <li>Bad Bort</li>
+        </ul>
       </div>
     );
   }
