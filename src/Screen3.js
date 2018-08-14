@@ -17,7 +17,7 @@ export class Screen3 extends Component {
     return users.map( (user) => {
       const { name, order } = user;
 
-      if(['yes'].includes(order.toLowerCase()) ){
+      if( ['yes'].includes(order.toLowerCase()) ){
         return(
           <li key={`${name}${order}`}>
             <span>{name}</span>
