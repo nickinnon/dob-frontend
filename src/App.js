@@ -10,7 +10,7 @@ import { Screen3 } from './Screen3';
 
 class App extends Component {
   state = {
-    i: 0,
+    i: 1,
   }
   pages = [
     <Screen1 />,

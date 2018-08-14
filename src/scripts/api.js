@@ -19,13 +19,11 @@ const fetchConfig = {
 }
 
 export const fetchScores = () => {
-    fetch(getEndpoint('scores'), fetchConfig)
+    return fetch(getEndpoint('scores'), fetchConfig)
         .then( getJson )
-        .then((json) => console.log(json)) 
 }
 
 export const fetchOrders = () => {
-    fetch(getEndpoint('orders'), fetchConfig)
+    return fetch(getEndpoint('orders'), fetchConfig)
         .then( getJson )
-        .then((json) => console.log(json)) 
 }
