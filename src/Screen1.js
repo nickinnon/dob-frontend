@@ -11,4 +11,3 @@ export class Screen1 extends Component {
     );
   }
 }
-

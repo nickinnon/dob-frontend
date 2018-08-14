@@ -30,6 +30,7 @@ export class Screen2 extends Component {
   render() {
     return (
       <div className="App">
+        <img src="page2.jpg" style={{width: "20vw"}} />
         <h1>Winners</h1>
         <ul>
           <li className={'bold'}>
