@@ -26,6 +26,7 @@ export class Screen2 extends Component {
       )
     });
   }
+  
   render() {
     return (
       <div className="App">
